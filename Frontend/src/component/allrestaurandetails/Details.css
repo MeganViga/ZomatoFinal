@@ -1,0 +1,65 @@
+.side-heading{
+    font-family: Poppins;
+    font-size: 23px;
+}
+.cust-card{
+    min-height:200px;
+    width:450px;
+    background-color:white;
+    /* padding-left:0; */
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
+}
+ .availrest{
+     font-family: 'Poppins';
+     font-size:30px;
+ }
+ img{
+     object-fit: cover;
+ }
+ @media (min-width:1024px){
+     img{
+         min-height:300px;
+     }
+.cust-card p{
+    line-height: 2.5;
+}
+
+ }
+ @media (max-width:280px){
+     .cust-card-component{
+         padding-left: 0;
+     }
+ }
+ 
+a{
+    color:black;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+a:hover{
+    color:black
+}
+#name{
+    font-weight: bold;
+}
+.page-link{
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #ce0505;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color:#ce0505;
+    border-color: #ce0505;
+}
+.page-item:hover .page-link {
+    z-index: 1;
+    color: #ce0505;
+    
+}
